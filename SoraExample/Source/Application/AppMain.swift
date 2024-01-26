@@ -1,5 +1,5 @@
 //
-//  SoraExampleApp.swift
+//  AppMain.swift
 //  SoraExample
 //
 //  Created by Mercen on 1/27/24.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SoraExampleApp: App {
+struct AppMain: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

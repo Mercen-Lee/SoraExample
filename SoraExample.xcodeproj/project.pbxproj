@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931A3C222B6452F20029A082 /* SoraExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C212B6452F20029A082 /* SoraExampleApp.swift */; };
-		931A3C242B6452F20029A082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C232B6452F20029A082 /* ContentView.swift */; };
+		931A3C222B6452F20029A082 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C212B6452F20029A082 /* AppMain.swift */; };
 		931A3C262B6452F30029A082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A3C252B6452F30029A082 /* Assets.xcassets */; };
-		931A3C292B6452F30029A082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A3C282B6452F30029A082 /* Preview Assets.xcassets */; };
+		931A3C312B64534A0029A082 /* Sora in Frameworks */ = {isa = PBXBuildFile; productRef = 931A3C302B64534A0029A082 /* Sora */; };
+		931A3C382B6454440029A082 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C372B6454440029A082 /* MainView.swift */; };
+		931A3C3B2B64545B0029A082 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C3A2B64545B0029A082 /* MainViewModel.swift */; };
+		931A3C3D2B6454AE0029A082 /* ReqresService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C3C2B6454AE0029A082 /* ReqresService.swift */; };
+		931A3C402B64556E0029A082 /* FetchUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C3F2B64556E0029A082 /* FetchUserList.swift */; };
+		931A3C422B6455780029A082 /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C412B6455780029A082 /* CreateUser.swift */; };
+		931A3C442B64559F0029A082 /* UpdateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C432B64559F0029A082 /* UpdateUser.swift */; };
+		931A3C462B6455A70029A082 /* RemoveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C452B6455A70029A082 /* RemoveUser.swift */; };
+		931A3C492B6456F00029A082 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A3C482B6456F00029A082 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		931A3C1E2B6452F20029A082 /* SoraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		931A3C212B6452F20029A082 /* SoraExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoraExampleApp.swift; sourceTree = "<group>"; };
-		931A3C232B6452F20029A082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		931A3C212B6452F20029A082 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		931A3C252B6452F30029A082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		931A3C282B6452F30029A082 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		931A3C372B6454440029A082 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		931A3C3A2B64545B0029A082 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		931A3C3C2B6454AE0029A082 /* ReqresService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqresService.swift; sourceTree = "<group>"; };
+		931A3C3F2B64556E0029A082 /* FetchUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserList.swift; sourceTree = "<group>"; };
+		931A3C412B6455780029A082 /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
+		931A3C432B64559F0029A082 /* UpdateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUser.swift; sourceTree = "<group>"; };
+		931A3C452B6455A70029A082 /* RemoveUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveUser.swift; sourceTree = "<group>"; };
+		931A3C482B6456F00029A082 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		931A3C4A2B6462D90029A082 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931A3C312B64534A0029A082 /* Sora in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +50,7 @@
 		931A3C152B6452F20029A082 = {
 			isa = PBXGroup;
 			children = (
+				931A3C4A2B6462D90029A082 /* README.md */,
 				931A3C202B6452F20029A082 /* SoraExample */,
 				931A3C1F2B6452F20029A082 /* Products */,
 			);
@@ -51,20 +67,82 @@
 		931A3C202B6452F20029A082 /* SoraExample */ = {
 			isa = PBXGroup;
 			children = (
-				931A3C212B6452F20029A082 /* SoraExampleApp.swift */,
-				931A3C232B6452F20029A082 /* ContentView.swift */,
-				931A3C252B6452F30029A082 /* Assets.xcassets */,
-				931A3C272B6452F30029A082 /* Preview Content */,
+				931A3C342B64540B0029A082 /* Resource */,
+				931A3C352B64540F0029A082 /* Source */,
 			);
 			path = SoraExample;
 			sourceTree = "<group>";
 		};
-		931A3C272B6452F30029A082 /* Preview Content */ = {
+		931A3C322B6454010029A082 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				931A3C282B6452F30029A082 /* Preview Assets.xcassets */,
+				931A3C3C2B6454AE0029A082 /* ReqresService.swift */,
+				931A3C3E2B64555B0029A082 /* User */,
 			);
-			path = "Preview Content";
+			path = Service;
+			sourceTree = "<group>";
+		};
+		931A3C332B6454070029A082 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C212B6452F20029A082 /* AppMain.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		931A3C342B64540B0029A082 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C252B6452F30029A082 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		931A3C352B64540F0029A082 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C332B6454070029A082 /* Application */,
+				931A3C362B6454350029A082 /* Feature */,
+				931A3C322B6454010029A082 /* Service */,
+				931A3C472B6456E30029A082 /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		931A3C362B6454350029A082 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C392B6454550029A082 /* Main */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		931A3C392B6454550029A082 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C372B6454440029A082 /* MainView.swift */,
+				931A3C3A2B64545B0029A082 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		931A3C3E2B64555B0029A082 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C412B6455780029A082 /* CreateUser.swift */,
+				931A3C3F2B64556E0029A082 /* FetchUserList.swift */,
+				931A3C432B64559F0029A082 /* UpdateUser.swift */,
+				931A3C452B6455A70029A082 /* RemoveUser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		931A3C472B6456E30029A082 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				931A3C482B6456F00029A082 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,9 @@
 			dependencies = (
 			);
 			name = SoraExample;
+			packageProductDependencies = (
+				931A3C302B64534A0029A082 /* Sora */,
+			);
 			productName = SoraExample;
 			productReference = 931A3C1E2B6452F20029A082 /* SoraExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 931A3C152B6452F20029A082;
+			packageReferences = (
+				931A3C2F2B64534A0029A082 /* XCRemoteSwiftPackageReference "Sora" */,
+			);
 			productRefGroup = 931A3C1F2B6452F20029A082 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A3C292B6452F30029A082 /* Preview Assets.xcassets in Resources */,
 				931A3C262B6452F30029A082 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A3C242B6452F20029A082 /* ContentView.swift in Sources */,
-				931A3C222B6452F20029A082 /* SoraExampleApp.swift in Sources */,
+				931A3C442B64559F0029A082 /* UpdateUser.swift in Sources */,
+				931A3C382B6454440029A082 /* MainView.swift in Sources */,
+				931A3C3D2B6454AE0029A082 /* ReqresService.swift in Sources */,
+				931A3C422B6455780029A082 /* CreateUser.swift in Sources */,
+				931A3C222B6452F20029A082 /* AppMain.swift in Sources */,
+				931A3C492B6456F00029A082 /* User.swift in Sources */,
+				931A3C462B6455A70029A082 /* RemoveUser.swift in Sources */,
+				931A3C3B2B64545B0029A082 /* MainViewModel.swift in Sources */,
+				931A3C402B64556E0029A082 /* FetchUserList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +361,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SoraExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 56V747V83R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sora;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,15 +391,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SoraExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 56V747V83R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sora;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		931A3C2F2B64534A0029A082 /* XCRemoteSwiftPackageReference "Sora" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mercen-Lee/Sora";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		931A3C302B64534A0029A082 /* Sora */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 931A3C2F2B64534A0029A082 /* XCRemoteSwiftPackageReference "Sora" */;
+			productName = Sora;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 931A3C162B6452F20029A082 /* Project object */;
 }
