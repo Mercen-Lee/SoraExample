@@ -8,7 +8,7 @@
 import Foundation
 import Sora
 
-struct ReqresService: SoraService {
+struct ReqresService: Service {
     
     let endpoint: URL = .init(string: "https://reqres.in/api/")!
     let path: [String]
@@ -18,6 +18,7 @@ struct ReqresService: SoraService {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         decoder.dateDecodingStrategy = .formatted(dateFormatter)
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
         return decoder
     }
 }

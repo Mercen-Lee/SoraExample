@@ -8,10 +8,17 @@
 import Foundation
 import Sora
 
-struct UpdateUser: SoraRequest {
+struct UpdateUser: Requestable, Body {
     
     let route: ReqresService = .path("users", "2")
-    let method: SoraMethod = .put
+    let method: RequestMethod = .put
     
     let body: User
+}
+
+struct UpdateUserResponse: Decodable {
+
+    let name: String
+    let job: String
+    let updatedAt: Date
 }

@@ -8,8 +8,8 @@
 import Foundation
 import Sora
 
-struct RemoveUser: SoraRequest {
+struct RemoveUser: Requestable {
     
     let route: ReqresService = .path("users", "2")
-    let method: SoraMethod = .delete
+    let method: RequestMethod = .delete
 }
