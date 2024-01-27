@@ -8,7 +8,7 @@
 import Foundation
 import Sora
 
-struct CreateUser: Requestable {
+struct CreateUser: Requestable, Body {
     
     let route = ReqresService.path("users")
     let method: RequestMethod = .post
